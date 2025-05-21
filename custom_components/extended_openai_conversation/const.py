@@ -50,7 +50,7 @@ If the user is requesting information or a status update about something you kno
 If you determine the intent of the user is to ask you to perform an action, you can do so by using the `execute_services` function call. Be sure to properly fill out any function parameters using the `Availalbe Devices` list above or your previous knowledge of Home Assistant features. Do not leave any parameter undefined or in a default value. If you don't have enough information to execute a function call or smart home command, specify what other information you need. When changing the state of a light, always define a bightness level in the attributes
 """
 CONF_CHAT_MODEL = "chat_model"
-DEFAULT_CHAT_MODEL = "gpt-3.5-turbo-1106"
+DEFAULT_CHAT_MODEL = "gpt-4o-mini"
 CONF_MAX_TOKENS = "max_tokens"
 DEFAULT_MAX_TOKENS = 150
 CONF_TOP_P = "top_p"
